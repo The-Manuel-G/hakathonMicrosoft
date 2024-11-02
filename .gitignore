@@ -38,3 +38,31 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Ignorar el modelo de Machine Learning
+*.pth
+*.pt
+
+# Ignorar configuraciones y archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+lung-cancer.pth
+
+# Ignorar archivos de logs y debugging
+*.log
+*.out
+*.err
+
+# Ignorar archivos de imágenes o datos temporales si se usan en desarrollo
+*.png
+*.jpg
+*.jpeg
+*.csv
+
+
+# Ignorar configuraciones específicas de IDE
+.vscode/
+.idea/
