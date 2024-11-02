@@ -58,7 +58,11 @@ Para la gestión de tareas, se utilizó **Trello**, donde se documentaron los av
 - [Tablero de Trello](https://trello.com/invite/b/65093674f4b933675de63524/ATTI39837439f2f76b9f2f3a9e634efe6c14A1FE872A/hackahton-grupo-13): Aquí puedes ver el detalle de las tareas y tecnologías empleadas.
 
 ---
+- [Presentacion](https://itlaedudo-my.sharepoint.com/:p:/g/personal/202010742_itla_edu_do/ET4OdvJ-wT5NvGTA7iVgr5MBU4DVd5MhN9muDSfR91Zt6g?e=tGd6rH
+): Aquí puedes ver la presentacion.
 
+
+---
 ## Herramientas Utilizadas
 
 Se integraron varias herramientas para potenciar las funcionalidades del proyecto:
