@@ -2,6 +2,30 @@
 
 Este proyecto fue desarrollado para el **Hackathon Microsoft** y está pensado como un **Asistente Integral para Médicos**. Utiliza **Next.js** en el frontend y **FastAPI** en el backend, integrándose con servicios de **Azure** para procesamiento de documentos e imágenes. Además, incluye un **sistema de citas para pacientes** que ayuda a médicos y personal de salud a gestionar y organizar citas de manera eficiente.
 
+# Hackathon Microsoft Project - Asistente Médico para Análisis de Documentos, Imágenes y Gestión de Citas
+
+Este proyecto fue desarrollado para el **Hackathon Microsoft** y está pensado como un **Asistente Integral para Médicos**...
+
+## Capturas de Pantalla
+
+### 1. Estructura del Proyecto
+![Estructura del Proyecto en e Front-end](public/Estructura_del_proyecto.png)
+
+### 1. Estructura del Proyecto
+![Estructura del Proyecto en e back-end](public/estuctura_en_python .png)
+
+### 2. Dashboard Principal
+![Dashboard](public/dasboard.png)
+
+### 3. Panel de Citas
+![Panel de Citas](public/citas.png)
+
+### 4. Formulario para Agregar Cita
+![Agregar Cita](public/agregarcita.png)
+
+### 5. Análisis de Imágenes
+![Análisis de Imagen](public/imagenmodel.png)
+
 - **Frontend**: Next.js para la interfaz de usuario y la interacción con el usuario.
 - **Backend**: FastAPI para la gestión de la API y el procesamiento de documentos.
 - **Azure**: Usado para procesamiento de documentos, inteligencia en la nube y almacenamiento.
@@ -16,13 +40,16 @@ Este asistente es ideal para médicos y personal de salud que buscan mejorar su 
 - **Facilitar la organización de citas para pacientes**: Permite a los médicos ver y gestionar las citas de los pacientes, evitando dobles reservas y mejorando la organización.
 - **Brindar una experiencia integral a los pacientes**: Al tener una plataforma unificada, los pacientes pueden sentirse más atendidos y recibir sus resultados de análisis y citas de manera eficiente.
 
-## Funcionalidades Principales
 
-- **Cargar documentos**: Los usuarios pueden cargar documentos PDF y obtener análisis detallados de su contenido.
-- **Predicción de imágenes**: Análisis de imágenes médicas utilizando modelos de aprendizaje automático pre-entrenados.
-- **Sistema de citas para pacientes**: Organización y gestión de citas, ayudando a los médicos a coordinar mejor sus agendas.
-- **Almacenamiento en Azure**: Almacenamiento de datos en Azure Table Storage.
-- **Interfaz moderna**: UI fácil de usar en Next.js para manejar cargas, citas y visualizar resultados.
+## Diagnóstico Inteligente de Imágenes
+
+Al probar con una imagen, el sistema diagnostica la clase a la que pertenece sin incluir datos engorrosos de probabilidades de todas las clases. Simplemente muestra la clase con la mayor probabilidad y da el diagnóstico directo.
+
+**Prueba el modelo de manera individual y explora el rendimiento general en Google Colab:**
+
+- [Notebook de Entrenamiento y Prueba Individual](https://colab.research.google.com/drive/1hUWIMh6RGnSzpt2-6tAZikKf7DUKLUi5?usp=sharing) - Utilizado para entrenar y probar el modelo con imágenes individuales.
+- [Notebook de Prueba en Conjunto de Datos](https://colab.research.google.com/drive/1J1bFDwqymnF98QYRxbeHLJI0SoPdVO6G?usp=sharing) - Para evaluar el rendimiento general del modelo en un conjunto de datos de prueba.
+
 
 ## Estructura del Proyecto
 
