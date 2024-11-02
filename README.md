@@ -26,6 +26,8 @@ Este proyecto fue desarrollado para el **Hackathon Microsoft** y está pensado c
 ### 5. Análisis de Imágenes
 ![Análisis de Imagen](public/imagenmodel.png)
 
+![Análisis de documentos](public/analit_documen.png)
+
 - **Frontend**: Next.js para la interfaz de usuario y la interacción con el usuario.
 - **Backend**: FastAPI para la gestión de la API y el procesamiento de documentos.
 - **Azure**: Usado para procesamiento de documentos, inteligencia en la nube y almacenamiento.
