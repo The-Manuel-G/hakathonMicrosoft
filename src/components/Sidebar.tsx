@@ -37,7 +37,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }: SidebarProps) {
         <AiOutlineLeft className={`${sidebarOpen ? "" : "rotate-180"} transition-transform`} />
       </button>
       <div className="flex items-center space-x-2 mb-8">
-        {sidebarOpen && <h2 className="text-white text-lg font-bold">ProtoScanner3D</h2>}
+        {sidebarOpen && <h2 className="text-white text-lg font-bold"></h2>}
       </div>
       <div className="flex-grow space-y-4">
         {linksArray.map(({ icon, label, to }) => (
