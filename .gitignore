@@ -57,10 +57,7 @@ lung-cancer.pth
 *.err
 
 # Ignorar archivos de imágenes o datos temporales si se usan en desarrollo
-*.png
-*.jpg
-*.jpeg
-*.csv
+
 
 
 # Ignorar configuraciones específicas de IDE
